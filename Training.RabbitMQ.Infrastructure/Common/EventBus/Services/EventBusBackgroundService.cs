@@ -12,6 +12,6 @@ public class EventBusBackgroundService(IEnumerable<IEventSubscriber> eventSubscr
 
     public override Task StopAsync(CancellationToken cancellationToken)
     {
-        return Task.WhenAll(eventSubscribers.Select(eventSubscriber => eventSubscriber.StartAsync(cancellationToken).AsTask()));
+        return Task.WhenAll(eventSubscribers.Select(eventSubscriber => eventSubscriber.StopAsync(cancellationToken).AsTask()));
     }
 }   
