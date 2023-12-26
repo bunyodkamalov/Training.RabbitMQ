@@ -2,9 +2,9 @@
 
 public class TemplatePlaceholder
 {
-    public string PlaceHolder { get; set; } = default!;
+    public string Placeholder { get; set; } = default!;
 
-    public string PlaceHolderValue { get; set; } = default!;
+    public string PlaceholderValue { get; set; } = default!;
     
     public string? Value { get; set; }
     

@@ -2,7 +2,7 @@
 
 public static class NotificationTemplateConstants
 {
-    public const string UserNamePlaceHolder = "UserName";
+    public const string UserNamePlaceholder = "UserName";
 
-    public const string EmailAddressVerificationLinkPlaceHolder = "EmailAddressVerificationLinkPlace";
+    public const string EmailAddressVerificationLinkPlaceholder = "EmailAddressVerificationLinkPlace";
 }
